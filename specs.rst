@@ -59,18 +59,19 @@ or an update, the latter being like Git commit messages.
 
 	[@{username}] #tuitfs[-#new]:{tweet URL or ID}
 
-Initialize a new document, and point out to the original file.
+Initialize a new document, and point out to the storage initialization thread.
 
 ::
 
 	[@{username}] #tuitfs-#update:{tweet URL or ID}
 
-Update an existing database with new or modified files.
+Update an existing database with a new storage update thread.
 
 File 0
 ~~~~~~
 
-We suggest to use the file with ID 0 on each storage initialization thread as a ``text/x-yaml`` containing a set with entries corresponding to uploaded files, following this syntax:
+It is suggested to use the file with ID 0 on each storage initialization thread as a ``text/x-yaml`` containing
+a set with entries corresponding to uploaded files, following this syntax:
 
 ::
 
