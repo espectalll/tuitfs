@@ -123,15 +123,15 @@ Hey! Not enough emojis! Let's fix this!
 
 ::
 
-	@myself id:1;data:text/x-diff;base64MWEyCj4g8J+SlfCfjonwn5GP8J+mivCfmYzwn46K8J+kmAo=;eof;
+	@myself id:1;data:text/x-diff;base64,MWEyCj4g8J+SlfCfjonwn5GP8J+mivCfmYzwn46K8J+kmAo=;eof;
 
 But wait! Aren't you fancy being an artist today...? Let's draw!
 ::
-	
+
 	@myself ~id:2;data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD//gATQ3JlYXRlZCB3aXRoIEdJTVD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCI
 
 ::
-	
+
 	@myself ~fIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Oz
 
 ...and so on, until the last tweet finally arrives:
@@ -162,7 +162,7 @@ We can now easily write a file 0:
 That should do it. Now it's just a storage thread and an update away!
 
 ::
-	
+
 	@myself ~id:0;data:text/x-yaml;base64,ZmlsZW5hbWVzOgoJMTogaGVsbG8udHh0CgkyOiBjYXQuanBnCg==;eot
 
 As we're happy with the results, let's share it so everyone can enjoy!
